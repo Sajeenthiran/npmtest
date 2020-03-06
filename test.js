@@ -1,12 +1,13 @@
-const fs = require('fs');
+
 
 let test = {
     createCustomer: function (path) {
-        test(path);
+        test1(path);
 
     }
 };
-function test(path){
+function test1(path){
+  const fs = require('fs');
     console.log(path)
     fs.writeFile("/tmp/test", "Hey there!", function(err) {
         if(err) {
