@@ -2,7 +2,7 @@
   "name": "my-react-app-test",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
